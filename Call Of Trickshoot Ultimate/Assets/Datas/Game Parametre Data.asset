@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1ac37b9c759854aa69a3c6e88e10f4, type: 3}
+  m_Name: Game Parametre Data
+  m_EditorClassIdentifier: 
+  _mode: MG
+  _score: 5
+  _time: 5
+  _manche: 1
+  _map: Highrise 2
+  _esclave: 1
+  _traversInfini: 1
+  _nbJoueurTotal: 2
+  _playerInGames:
+  - _playerProfil:
+      _isConnected: 1
+      _isReady: 1
+      _pseudo: Babouche
+      _level: 1
+      _xpCurrent: 0
+      _xpMax: 1000
+      _playerClasseManager:
+        _sizeMax: 5
+        _playerClasses: []
+    _team: NoTeam
+    _hitMarker: 0
+  - _playerProfil:
+      _isConnected: 1
+      _isReady: 1
+      _pseudo: Esclave_Babouche
+      _level: 1
+      _xpCurrent: 0
+      _xpMax: 0
+      _playerClasseManager:
+        _sizeMax: 5
+        _playerClasses: []
+    _team: NoTeam
+    _hitMarker: 0
